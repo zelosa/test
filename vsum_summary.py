@@ -205,7 +205,7 @@ test_two.FN_LN_match.value_counts()
 
 #.loc should include Domain/Domain_Name
 newDf = test_two.loc[:,['Age_bucket','Domain', 'Domain_End','Email_Total_Length', 'FN_LN_match', 'LP_length', 'Phone_State_Match', 'match', 'numbers', 'stopz', 'domain_vowel_count',
-                        'S_x', 'Smiss', 'xFraud_App']]
+                        'S_x', 'Smiss', 'xFraud_App', 'letters', 'State', 'addr_numbercount', 'addr_wordLength', 'addr_letter_count']]
 
 
 # In[28]:
