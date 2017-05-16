@@ -1,6 +1,6 @@
 
 
-#packages for tectia /data/1/namcards/fraud
+
 from __future__ import division
 import matplotlib
 matplotlib.use('Agg')
